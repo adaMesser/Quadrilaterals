@@ -9,4 +9,6 @@ trait Quadrilateral_Trait
     {
         echo "Perimeter = " . $this->getPerimeter() . ", Area = " . $this->getArea() . "<br><br>";
     }
+
+    /**/
 }
