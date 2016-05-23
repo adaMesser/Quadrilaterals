@@ -8,8 +8,6 @@ class Irregular_Quadrilateral implements Quadrilateral_Interface
     protected $sideB;
     protected $sideC;
     protected $sideD;
-    protected $perimeter;
-    protected $area;
 
     public function __construct($sideA, $sideB, $sideC, $sideD)
     {
