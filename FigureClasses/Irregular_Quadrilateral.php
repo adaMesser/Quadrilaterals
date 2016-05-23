@@ -78,5 +78,4 @@ class Irregular_Quadrilateral implements Quadrilateral_Interface
         $area = sqrt(($p-$a)*($p-$b)*($p-$c)*($p-$d));
         return $area;
     }
-
 }
