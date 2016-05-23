@@ -64,12 +64,19 @@ class Irregular_Quadrilateral implements Quadrilateral_Interface
 
     public function getPerimeter()
     {
-        return $this->perimeter;
+        $perimeter = $this->getSideA()+$this->getSideB()+$this->getSideC()+$this->getSideD();
+        return $perimeter;
     }
 
     public function getArea()
     {
-        return $this->area;
+        $p = $this->getPerimeter()/2;
+        $a = $this->getSideA();
+        $b = $this->getSideB();
+        $c = $this->getSideC();
+        $d = $this->getSideD();
+        $area = sqrt(($p-$a)*($p-$b)*($p-$c)*($p-$d));
+        return $area;
     }
 
 }
