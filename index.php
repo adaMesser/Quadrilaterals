@@ -7,7 +7,7 @@ $irregular_quadrilateral->getQuadrilateralInfo();
 
 $kite = new Kite(2, 2, 4, 4);
 $kite->getQuadrilateralType();
-$kite->getQuadrilateralInfo();
+$kite->getQuadrilateralInfo(); 
 
 $parallelogram = new Parallelogram(4, 5, 4, 5);
 $parallelogram->getQuadrilateralType();
