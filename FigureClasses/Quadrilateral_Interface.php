@@ -16,9 +16,5 @@ interface Quadrilateral_Interface
     public function setSideD($sideD);
 
     public function getPerimeter();
-    public function setPerimeter($perimeter);
     public function getArea();
-    public function setArea($area);
-
-    
 }

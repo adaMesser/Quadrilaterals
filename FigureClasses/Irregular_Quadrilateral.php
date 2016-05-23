@@ -67,18 +67,9 @@ class Irregular_Quadrilateral implements Quadrilateral_Interface
         return $this->perimeter;
     }
 
-    public function setPerimeter($perimeter)
-    {
-        $this->perimeter = $perimeter;
-    }
-
     public function getArea()
     {
         return $this->area;
     }
 
-    public function setArea($area)
-    {
-        $this->area = $area;
-    }
 }
