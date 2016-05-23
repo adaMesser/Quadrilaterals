@@ -1,6 +1,6 @@
 <?php
 
-class Rectangle extends Parallelogram
+final class Rectangle extends Parallelogram
 {
     protected $type = "Rectangle";
 }

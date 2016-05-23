@@ -1,6 +1,6 @@
 <?php
 
-class Square extends Rhombus
+final class Square extends Rhombus
 {
     protected $type = "Square";
 }

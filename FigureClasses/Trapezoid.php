@@ -1,6 +1,6 @@
 <?php
 
-class Trapezoid extends Irregular_Quadrilateral
+final class Trapezoid extends Irregular_Quadrilateral
 {
     protected $type = "Trapezoid";
 }

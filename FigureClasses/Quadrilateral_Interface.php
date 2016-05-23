@@ -19,4 +19,6 @@ interface Quadrilateral_Interface
     public function setPerimeter($perimeter);
     public function getArea();
     public function setArea($area);
+
+    
 }
